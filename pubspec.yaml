@@ -1,0 +1,28 @@
+name: beemee
+description: An E commerce app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    cupertino_icons: ^1.0.2
+    firebase_auth: ^4.16.0
+    twilio: ^0.0.2
+    cloud_firestore: ^4.14.0
+    logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
